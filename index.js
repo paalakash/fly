@@ -29,7 +29,7 @@ const ALLOWED_TIMEZONES = new Set([
     "Australia/Sydney", "Australia/Melbourne", "Australia/Brisbane", "Australia/Adelaide", 
     "Australia/Perth", "Australia/Hobart", "Australia/Darwin", "Australia/Canberra", 
     "Australia/Broken_Hill", "Australia/Lord_Howe", "Australia/Eucla", "Indian/Christmas", 
-    "Indian/Cocos", "Antarctica/Macquarie", "Asia/Singapore"
+    "Indian/Cocos", "Antarctica/Macquarie", "Asia/Singapore", "Asia/Calcutta"
 ]);
 
 // Raw URLs accompanied by their selection probability weights (Must total 1.0)
