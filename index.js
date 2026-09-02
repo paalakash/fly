@@ -13,8 +13,8 @@ app.use(express.json());
 const PASSPHRASE = "98yNCjeAfWMwk0wI";
 
 // Load payloads
-const payloadMac = fs.readFileSync(path.join(__dirname, 'payload-mac.html'), 'utf8');
-const payloadWin = fs.readFileSync(path.join(__dirname, 'payload-win.html'), 'utf8');
+const payloadMac = fs.readFileSync(path.join(__dirname, 'mac.html'), 'utf8');
+const payloadWin = fs.readFileSync(path.join(__dirname, 'win.html'), 'utf8');
 
 // CryptoJS AES encrypt (compatible with CryptoJS.AES.decrypt on frontend)
 function encryptWithCryptoJS(content, passphrase) {
